@@ -10,15 +10,15 @@ Func main()
    While 1 ;; Main Loop
 	  Sleep(1)
 	  While $Enabled And AltDown()
-		 Local $searchUnique = PixelSearch(683, 263, 1241, 686, 0xC9B57A, 0)
+		 Local $searchUnique = PixelSearch(683, 263, 1241, 686, 0xBFA969, 0)
 		 If Not @error Then
 			MouseClick("LEFT", $searchUnique[0], $searchUnique[1], 1, 0)
 		 EndIf
-		 Local $searchSet = PixelSearch(683, 263, 1241, 686, 0x00FC00, 0)
+		 Local $searchSet = PixelSearch(683, 263, 1241, 686, 0x00FD00, 0)
 		 If Not @error Then
 			MouseClick("LEFT", $searchSet[0], $searchSet[1], 1, 0)
 		 EndIf
-		 Local $searchRune = PixelSearch(683, 263, 1241, 686, 0xFFAA00, 0)
+		 Local $searchRune = PixelSearch(683, 263, 1241, 686, 0xFD9D00, 0)
 		 If Not @error Then
 			MouseClick("LEFT", $searchRune[0], $searchRune[1], 1, 0)
 		 EndIf
@@ -39,8 +39,8 @@ EndFunc
 Func Toggle() ;; Toggles script on/off
    $Enabled = Not $Enabled
    If $Enabled Then
-	  Beep(750, 250)
+	  Beep(750, 250) ;; Higher pitched beep for enabled
    Else
-	  Beep(150, 250)
+	  Beep(150, 250) ;; Lower pitched beep for disabled
    EndIf
 EndFunc
