@@ -8,4 +8,6 @@ Grabs Sets/Unique Items in close proximity to player in Diablo 2.
 * Press ALT to activate grabber (uses Pixel Scanning). NOTE: Try avoid having the minimap toggled on, the green player icons sometimes interfere.
 * Compatible with 1080P Resolution out of the box
 
+### Warning - This has a lot of false positives, I recommend disabling it (F11) when not awaiting boss drops.
+
 ![ScanBox](https://user-images.githubusercontent.com/42287509/136714870-98ff9d3a-da6e-470d-ae2d-b36ec7eb081e.png)
