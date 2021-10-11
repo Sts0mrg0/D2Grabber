@@ -2,7 +2,7 @@
 Grabs Sets/Unique Items in close proximity to player in Diablo 2.
 
 ## Info
-* Works in Diablo 2 Resurrected
+* Works in Diablo 2 Resurrected (Must use Old Graphics mode, too many pixel color collisions in remastered graphics)
 * Attempts to grab Set/Unique items in the box as shown below
 * Press ALT to activate grabber
 * Compatible with 1080P Resolution out of the box
