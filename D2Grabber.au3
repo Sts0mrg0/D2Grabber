@@ -10,7 +10,7 @@ Func main()
    While 1 ;; Main Loop
 	  Sleep(1)
 	  While $Enabled And AltDown()
-		 Local $searchUnique = PixelSearch(683, 263, 1241, 686, 0xC9B57A, 1)
+		 Local $searchUnique = PixelSearch(683, 263, 1241, 686, 0xC9B57A, 0)
 		 If Not @error Then
 			MouseClick("LEFT", $searchUnique[0], $searchUnique[1], 1, 0)
 		 EndIf
