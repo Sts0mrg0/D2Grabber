@@ -10,4 +10,4 @@ Grabs Sets/Unique Items in close proximity to player in Diablo 2.
 
 ### Warning - This has a lot of false positives, I recommend disabling it (F11) when not awaiting boss drops.
 
-![ScanBox](https://user-images.githubusercontent.com/42287509/136714870-98ff9d3a-da6e-470d-ae2d-b36ec7eb081e.png)
+![ScanBox](https://user-images.githubusercontent.com/42287509/136852152-9c9871b0-6f4b-4070-b183-d7a5b37a514a.png)
